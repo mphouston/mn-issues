@@ -1,5 +1,5 @@
-Details for Issue: https://github.com/micronaut-projects/micronaut-core/issues/???
-
+Details for Issue: https://github.com/micronaut-projects/micronaut-core/issues/1103
+                   
 
 Issue Title: Compiling Controller with Route/Method Defined in Trait Fails to Compile
 

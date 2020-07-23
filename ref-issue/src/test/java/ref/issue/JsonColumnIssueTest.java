@@ -19,7 +19,7 @@ public class JsonColumnIssueTest {
       // Save a record with a JSON string in the JSON field.
       TableARepository repo2 = application.getApplicationContext().getBean(TableARepository.class);
       TableA recordA = new TableA("ABC");
-      String json = "{\"color\": \"Blue\"}";
+      String json = "{\"color\": \"Blue\"}"; // Actual string value is {"color": "Blue"}
       recordA.setFields(json);
       repo2.save(recordA);
 

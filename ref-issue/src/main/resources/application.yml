@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: refIssue
+---
+datasources:
+  default:
+    url: "jdbc:postgresql://localhost:5432/micronaut-test"
+    driverClassName: "org.postgresql.Driver"
+    username: "mph"
+    password: "mh1234"
+    dialect: POSTGRES
+    schema-generate: CREATE_DROP
+    
